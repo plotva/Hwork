@@ -3,7 +3,7 @@ import json
 import zipfile
 #Part 1
 #Unpack zip
-with zipfile.ZipFile('./Hwork/okved_2.json.zip', 'r') as zipobj:
+with zipfile.ZipFile('./Hwork/okved_2.json.zip1', 'r') as zipobj:
     zipobj.extractall('./Hwork/')
 #Load json file
 with open('./Hwork/okved_2.json', 'r', encoding="UTF8") as f:
